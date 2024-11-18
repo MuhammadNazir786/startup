@@ -11,7 +11,7 @@ function ServiceCard(props) {
             {props.titel}
           </h4>
 
-          <p className="dark:text-white text-gray-500">
+          <p  className="dark:text-white text-gray-500">
             Lorem Ipsum is simply dummy text of the printing and industry.
           </p>
         </div>

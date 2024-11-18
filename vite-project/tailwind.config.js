@@ -8,7 +8,7 @@ export default {
   theme: {
    
     extend: {
-      colors:{
+      colors:{   
         blues:"#3056d3",
         greens:"#13c296",
         sky:"#e9f9ff",

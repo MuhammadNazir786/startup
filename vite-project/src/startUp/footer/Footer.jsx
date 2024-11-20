@@ -325,7 +325,7 @@ function Footer() {
               <div className="flex-wrap flex -m-4">
                 <div className="px-4 w-full min-[720px]:w-1/3  min-[960px]:w-2/4">
                   <div className="justify-center flex my-1 min-[720px]:justify-start">
-                    <p>© 2025 TailGrids</p>
+                    <p>© 2025 MNZ</p>
                   </div>
                 </div>
 

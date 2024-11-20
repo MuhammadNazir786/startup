@@ -16,6 +16,7 @@ function Service() {
      img:img3,
      titel:"UX & UI Design"
     }
+
  ]
   return (
     <>

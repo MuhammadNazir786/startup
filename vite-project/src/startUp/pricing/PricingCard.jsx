@@ -9,7 +9,9 @@ function PricingCard(props) {
 
           <h2 className="dark:text-white text-gray-900 text-[2.63rem] leading-none font-bold mb-5">
             {props.price}
-            <span className="dark:text-white text-gray-500 font-medium">/ year</span>
+            <span className="dark:text-white text-gray-500 font-medium">
+              / year
+            </span>
           </h2>
           <p className="dark:text-white text-gray-500 dark:border-gray-600 border-b-2 pb-8 mb-8 border-zinc-200 border-solid">
             Perfect for using in a {props.disc} website or a client project.
@@ -30,7 +32,7 @@ function PricingCard(props) {
           </div>
 
           <a
-            className="no-underline dark:border-blue-600 hover:text-blue-600 bg-blue-600  text-white font-medium text-center w-full border-1 border-zinc-200 border-solid rounded-md px-16 lg:px-16 py-3"
+            className="no-underline dark:border-blue-600 hover:text-blue-600 bg-blue-600  text-white font-medium text-center w-full border-1 border-zinc-200 border-solid rounded-md px-16 lg:px-16 py-3 md:px-8"
             href="#"
           >
             {props.btn}

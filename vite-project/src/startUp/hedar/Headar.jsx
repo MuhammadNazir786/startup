@@ -29,14 +29,14 @@ function Headar() {
         
         <div className="flex">
         <button onClick={toggleDarkMode} className="ml-4 pe-3">
-        {darkMode ?  <img  src="../brightness.png" alt="" />: <img src="../moon1.png" alt="" /> } 
+        {darkMode ?  <img className="w-12" src="../brightness.png" alt="" />: <img className="w-12" src="../moon1.png" alt="" /> } 
         </button>
         <button onClick={toggleMenu} className="md:hidden text-2xl text-Black focus:outline-none">
           {isOpen ? <h4 className="pt-2">X</h4> : ' ☰'}
         </button>
         <div className="hidden md:flex space-x-4 py-1">
         <a href="#" className={`text-lg font-semibold no-underline px-[28px] py-[10px] ${darkMode ?'text-gray-100 ':'text-gray-800 hover:text-blue-600'}`}>Sign in</a>
-          <a href="#" className="text-lg font-semibold no-underline text-white bg-blue-600 hover:bg-blue-700 px-[28px] py-[10px] rounded">Sign up</a>
+          <a href="#" className="text-lg font-semibold no-underline text-white bg-blue-600 hover:bg-blue-700 px-[28px] py-[10px] pb-3 rounded">Sign up</a>
           
         </div>
         </div>

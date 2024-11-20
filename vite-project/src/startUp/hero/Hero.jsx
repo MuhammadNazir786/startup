@@ -1,17 +1,7 @@
-import React, { useState } from 'react';
+
 
 function Hero() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    document.documentElement.classList.toggle('dark', !darkMode);
-  };
   return (
 <>
  <div className="dark:bg-gray-900  py-28 relative min-[960px]:pt-36 ">

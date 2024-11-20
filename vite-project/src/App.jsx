@@ -9,17 +9,17 @@
 // import New from "./component/new";
 
 // import Copies from "./c/Copies";
-import Hero from "./c/hero/Hero";
-import Headar from "./c/hedar/Headar";
-import Pricing from "./c/pricing/Pricing";
-import Service from "./c/service/Service";
-import Watch from "./c/watch/Watch";
-import Team from "./c/team/Team";
-import FAQ from "./c/faq/FAQ";
-import Start from "./c/starts/Start";
-import Testimonials from "./c/testimonials/Testimonials";
-import Contact from "./c/contact/Contact";
-import Footer from "./c/footer/Footer";
+import Hero from "./startUp/hero/Hero";
+import Headar from "./startUp/hedar/Headar";
+import Pricing from "./startUp/pricing/Pricing";
+import Service from "./startUp/service/Service";
+import Watch from "./startUp/watch/Watch";
+import Team from "./startUp/team/Team";
+import FAQ from "./startUp/faq/FAQ";
+import Start from "./startUp/starts/Start";
+import Testimonials from "./startUp/testimonials/Testimonials";
+import Contact from "./startUp/contact/Contact";
+import Footer from "./startUp/footer/Footer";
 
 
 
